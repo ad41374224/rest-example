@@ -11,7 +11,7 @@ public class RestDemoApplication {
 
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "Welcome";
+		return "Welcome quarantine coders";
 	}
 	
 	public static void main(String[] args) {
